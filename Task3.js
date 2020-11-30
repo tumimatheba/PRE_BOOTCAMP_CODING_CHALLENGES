@@ -1,9 +1,10 @@
-function twoNumbersFunction(a, b) {
+function test65 (a, b) {
     if ((a === 65 || b === 65) || (a + b === 65)) {
-        return true;
+      return true;
     } else {
-        return false;
+      return false;
     }
-}
+ }
+
 
 

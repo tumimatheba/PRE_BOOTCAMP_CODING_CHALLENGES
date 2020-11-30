@@ -1,13 +1,13 @@
-function celToFahr(celsius) {                // from celcius to fahrenheit
+function celsiusToFahrenheit(celsius) {              
 
-    var celTemp = celsius;
-    var farTemp = (celTemp * 9 / 5) + 32;
-    return farTemp;
+    var celsiusTemp = celsius;
+    var fahrenheitTemp = (celsiusTemp * 9 / 5) + 32;
+    return fahrenheitTemp;
 }
 
-function farToCel(fahrenheit) {                 // from fahrenheit to celsius
+function farenheitToCelcius(fahrenheit) {                
 
-    var farTemp = fahrenheit;
-    var celTemp = (farTemp -32) * 5 / 9;
-    return celTemp;
+    var fahrenheitTemp = fahrenheit;
+    var celsiusTemp = (fahrenheitTemp -32) * 5 / 9;
+    return celsiusTemp;
 }
